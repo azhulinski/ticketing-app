@@ -13,7 +13,7 @@ const LandingPage = ({currentUser, tickets}) => {
     })
 
     return !currentUser
-        ? <h1>You are NOT signed in</h1>
+        ? <h1 style={{textAlign: 'center'}}>You are NOT signed in</h1>
         : (
             <div>
                 <h1>Tickets</h1>

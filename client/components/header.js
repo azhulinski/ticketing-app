@@ -21,7 +21,6 @@ export default ({currentUser}) => {
             <ul className="nav d-flex align-items-center">
                 {links}
             </ul>
-
         </div>
     </nav>
 }
